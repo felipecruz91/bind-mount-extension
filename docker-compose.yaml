@@ -1,0 +1,3 @@
+services:
+  bind-mount-extension:
+    image: ${DESKTOP_PLUGIN_IMAGE}
