@@ -1,3 +1,5 @@
 services:
   bind-mount-extension:
     image: ${DESKTOP_PLUGIN_IMAGE}
+    volumes:
+      - /Users/felipecruz/src/tmp/bind-mount-extension/data:/tmp
